@@ -19,7 +19,7 @@ pipeline {
             steps {
                 // Copy the code to the Apache document root directory
                 bat script: '''
-                    xcopy /s /e /y "D:\\01 Manit MCA\\Other Assignments" "C:\\Apache24\\htdocs"
+                    xcopy /s /e /y "C:\\Users\\Aiden\\Desktop\\webd 2\\calculator" "C:\\Apache24\\htdocs"
                 '''
             }
         }
